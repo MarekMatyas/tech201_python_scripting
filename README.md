@@ -78,6 +78,7 @@ It provides a way for DevOps Engineers to standardize their work and share their
 
 1. **Paramiko**: Python module for ***SSH connections and SFTP.***
 [Paramiko documentation](https://www.paramiko.org/)
+
 2. **Fabric**: Python library for ***executing shell commands remotely over SSH.***.
 [Fabric documentation](https://www.fabfile.org/)
 3. **Boto3**: Python module for ***AWS SDK, allowing Python developers to interact with AWS services***.
@@ -96,6 +97,33 @@ It provides a way for DevOps Engineers to standardize their work and share their
 [Pandas documentation](https://pandasguide.readthedocs.io/en/latest/)
 10. **Matplotlib**: Python module for ***plotting and visualizing data***.
 [Marplotlib documentation](https://matplotlib.org/stable/index.html)
+
+
+## Example of a simple Python script
+###  downloads a webpage and saves it to a file:
+
+```python 
+import requests
+
+url = 'https://www.example.com'
+response = requests.get(url)
+
+with open('example.html', 'w') as f:
+    f.write(response.text)
+
+```
+
+- This scripts uses the `requests` module to download the content of a webpage specified by the URL. 
+
+- The `requests.get(URL)` function sends a **GET** request to the specified URL and returns the response. 
+
+- The response content is the written to a file name `example.html` using `with` statement and the `write` method of the file object.
+
+### Use case:
+
+This script could be useful for ***automating regular backups of websites*** or ***for storing a local copy of webpages for offline use***.
+
+The script can be run regularly using a task scheduler such as `cron` on Linux or `Task Scheduler` on Windows systems. 
 
 
 
