@@ -76,9 +76,26 @@ It provides a way for DevOps Engineers to standardize their work and share their
 
 # 10 most important Python modules for DevOps
 
-1. Paramiko: a Python module for ***SSH connections and SFTP.***
+1. **Paramiko**: Python module for ***SSH connections and SFTP.***
 [Paramiko documentation](https://www.paramiko.org/)
-
+2. **Fabric**: Python library for ***executing shell commands remotely over SSH.***.
+[Fabric documentation](https://www.fabfile.org/)
+3. **Boto3**: Python module for ***AWS SDK, allowing Python developers to interact with AWS services***.
+[Boto3 documentation](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
+4. **Ansible**: Python module for ***configuration management and automation***.
+[Ansible documentation](https://docs.ansible.com/ansible/latest/index.html)
+5. **Flask**: Python micro-framework for ***building web applications***.
+[Flask documentation](https://flask.palletsprojects.com/en/2.2.x/)
+6. **PyYAML**: Python module for ***parsing and emitting YAML*** (yet another markup language).
+[PyYAML documentation](https://wiki.python.org/moin/YAML)
+7. **Django**: Python web framework for ***building complex, database-driven websites***.
+[Django documentation](https://docs.djangoproject.com/en/4.1/)
+8. **NumPy**: Python module for ***numerical computing with support for a wide range of mathematical functions***.
+[NumPy documentation](https://numpy.org/doc/stable/)
+9. **Pandas**: Python module for ***data analysis and manipulation, providing fast, flexible, and expressive data structures***.
+[Pandas documentation](https://pandasguide.readthedocs.io/en/latest/)
+10. **Matplotlib**: Python module for ***plotting and visualizing data***.
+[Marplotlib documentation](https://matplotlib.org/stable/index.html)
 
 
 
